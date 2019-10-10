@@ -13,7 +13,8 @@ class wttest
 	String str=obj.nextLine();
 	char x[]=str.toCharArray();
 	System.out.println("The character array now is--: ");
-	for(int i=0;i<x.length;i++)
+		int len=x.length();
+	for(int i=0;i<len;i++)
 	{
 	System.out.print(x[i]);
 	}
